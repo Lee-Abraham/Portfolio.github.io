@@ -1,0 +1,44 @@
+html {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: white;
+}
+a {
+    color: white;
+}
+
+.flex_s > .logo_img {
+    margin-top: 15px ;
+}
+
+.flex_s{
+    display: flex;
+    display: flexbox;
+}
+.flex_s > div {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.flex_s > .left_bar {
+    flex: 1 0 0;
+    background-color: blue;
+    width: 10px;
+}
+.flex_s > .bar {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+#colums {
+    flex-direction: column;
+}
+.flex_s > #links > a {
+    padding-top: 35px;
+    padding-left: 15px;
+
+}
+
+.hidden {
+    display: none;
+}
