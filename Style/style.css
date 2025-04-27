@@ -1,6 +1,8 @@
-html {
-    background-color: black;
+html, body {
+    background-color: rgb(66, 86, 201);
     font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
 }
 h1 {
     color: white;
@@ -8,34 +10,42 @@ h1 {
 a {
     color: white;
 }
+.flex_s{
+    display: flex;
+    display: flexbox;
+    padding: 0px;
+    margin: 0px;
+}
 
 .flex_s > .logo_img {
     margin-top: 15px ;
 }
 
-.flex_s{
-    display: flex;
-    display: flexbox;
-}
 .flex_s > div {
     background-color: rgb(0, 0, 0);
     padding: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .flex_s > .left_bar {
     flex: 1 0 0;
-    background-color: blue;
+    background-color: rgb(149, 149, 151);
     width: 10px;
 }
 .flex_s > .bar {
     flex: 1;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(184, 184, 184);
+    padding-left: 10px;
+    height: 10px;
 }
 #colums {
     flex-direction: column;
 }
-.flex_s > #links > a {
-    padding-top: 35px;
-    padding-left: 15px;
+.flex_s > a {
+    margin-top: 32px;
+    margin-left: 15px;
+    text-decoration: none;
 
 }
 
