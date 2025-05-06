@@ -1,48 +1,30 @@
 html, body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 252, 252);
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
 }
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 a {
     color: white;
 }
-.flex_s{
-    display: flex;
-    display: flexbox;
-    padding: 0px;
-    margin: 0px;
-}
-
-.flex_s > .logo_img {
-    margin-top: 15px ;
-}
-
-.flex_s > div {
+.flex_top{
     background-color: rgb(63, 46, 207);
+    display: flex;
     padding: 10px;
     padding-left: 0px;
     padding-right: 0px;
     box-shadow:5px 5px 15px rgba(0, 0, 0, 0.3);
 }
-.flex_s > .left_bar {
-    flex: 1 0 0;
-    background-color: rgb(149, 149, 151);
-    width: 10px;
+
+.flex_top > .logo_img {
+    margin-top: 15px ;
 }
-.flex_s > .bar {
-    flex: 1;
-    background-color: rgb(184, 184, 184);
-    padding-left: 10px;
-    height: 10px;
-}
-#colums {
-    flex-direction: column;
-}
-.flex_s > a {
+
+/* Links for the top bar */
+.flex_top > a {
     width: 0px;
     height: 0px;
     flex: 0 1 32px;
@@ -53,10 +35,6 @@ a {
 
 }
 
-.flex_s > a:hover {
+.flex_top > a:hover {
     color: rgb(135, 127, 202);
-}
-
-.hidden {
-    display: none;
 }
